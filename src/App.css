@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  background: url(./images/bg.png) no-repeat center;
+  background-size: cover;
+}
+.dialog-box {
+  width: 385px;
+  height: 558px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.50);
+  backdrop-filter: blur(50px);
+  position: fixed;
+  bottom: 0;
+  right: 35px;
+}
+
+.dialog-content {
+  padding: 14px;
+}
+
+.dialog-content-left {
+  display: flex;
+  margin-bottom: 10px;
+}
+.dialog-content-left-head {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(137deg, #3D5AFE 9%, #5CB1FF 92.43%), #3D5AFE;
+}
+.dialog-content-left .dialog-content-time {
+  color: #101520;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  transform-origin: 0 0;
+  scale: 0.7;
+  margin-left: 5px;
+}
+.dialog-content-left .dialog-content-text {
+  padding: 10px 16px 0 16px;
+  border-radius: 8px;
+  background: #FFF;
+  backdrop-filter: blur(10px);
+  color: rgba(27, 27, 27, 0.75);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px; 
+  margin-left: 5px;
+}
+
+.dialog-content-left .tool-box {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.dialog-content-left .tool-box div {
+  flex: 1;
+  text-align: right;
+}
+.dialog-content-left .tool-box img {
+  width: 15px;
+  height: 15px;
+  margin-left: 23px;
+  cursor: pointer;
+  transition: all .4s;
+}
+.dialog-content-left .tool-box img:hover {
+  transform: scale(1.2);
+}
+.dialog-content-left .tool-box img :nth-child(1),.tool-box img :nth-child(2) {
+  width: 14px;
+  height: 12px;
+  margin-left: 20px;
+}
+.dialog-content-left .tool-box p {
+  color: #BFBFBF;
+  font-family: Poppins;
+  font-size: 12px;
+  transform-origin: 0 0;
+  scale: 0.7;
+  font-weight: 500;
+  line-height: 20px;
+}
+.dialog-content-left .loading{
+  display: flex;
+  width: 70px;
+  height: 35px;
+  margin-left:12px;
+  margin-top:-7px;
+}
+
+.dialog-content-right {
+  /* display: flex; */
+  margin-bottom: 10px;
+  overflow: hidden;
+  
+}
+.dialog-content-right .dialog-content-time img{
+  width:15px;
+  height:15px;
+  margin-left: 5px;
+}
+.dialog-content-right .dialog-content-time{
+  color: #101520;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  transform-origin: 100% 0;
+  scale: 0.7;
+  text-align: right;
+}
+.dialog-content-right .button{
+  width: 90px;
+  height: 35px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0px 8px;
+  background: #28B561;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  float: right;
+}

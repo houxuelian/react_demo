@@ -1,0 +1,70 @@
+.dialog-box-header{
+    display: flex;
+    width: 100%;
+    height: 57px;
+    border-radius: 4px;
+    padding: 0 15px 0 12px; 
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(94deg, #3D5AFE 40.82%, #5CB1FF 70.81%);
+  }
+  .vector{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .remind {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+  }
+  
+  .vector-box{
+    display: flex;
+  }
+  .vector-content{
+    padding: 8px 0 0 8px;
+  }
+  .vector-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+  }
+  
+  .vector-desc {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    transform-origin: 0 0;
+    scale: 0.58;
+    line-height: 1;
+    font-weight: 300;
+    margin-top: 6px;
+  }
+  
+  .vector-desc>span {
+    color: #47FFD1;
+    font-weight: 500;
+  }
+  .icon-box {
+    flex: 1;
+    text-align: right;
+  }
+  .icon-box > img {
+    width: 16px;
+    height: 16px;
+    margin-left: 18px;
+    cursor: pointer;
+    transition: all .4s;
+  }
+  .icon-box img:hover {
+    transform: scale(1.2);
+  }
